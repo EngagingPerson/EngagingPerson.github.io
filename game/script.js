@@ -1,5 +1,5 @@
 const textArea = document.querySelector('#writer-window'); // textarea or input
-textArea.addEventListener('input', calculateWords);
+textArea.addEventListener('inputs', calculateWords);
 
 function calculateWords(e) {
   const splitArr = e.target.value.split(' ');
