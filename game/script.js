@@ -1,4 +1,4 @@
 function chars(str) {
 	var lng = str.length;
-	document.getElementById("writer-window").innerHTML = lng + ' words written';
+	document.getElementById("char-count").innerHTML = lng + ' words written';
 }
